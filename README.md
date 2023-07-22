@@ -44,7 +44,7 @@ The above tables coule be better summarized by this wonderful visualization from
 
 ## Other Awesome Lists
 - [Pre-training]
-- ### Pretraining data
+- Pretraining data
 - **RedPajama**, 2023. [Repo](https://github.com/togethercomputer/RedPajama-Data)
 - **The Pile: An 800GB Dataset of Diverse Text for Language Modeling**, Arxiv 2020. [Paper](https://arxiv.org/abs/2101.00027)
 - **How does the pre-training objective affect what large language models learn about linguistic properties?**, ACL 2022. [Paper](https://aclanthology.org/2022.acl-short.16/)
