@@ -48,3 +48,5 @@ The above tables coule be better summarized by this wonderful visualization from
   > (2020-12) **Making Pre-trained Language Models Better Few-shot Learners** [paper](https://arxiv.org/pdf/2012.15723.pdf) <br>
   > (2021-07) **Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing** [paper](https://arxiv.org/abs/2107.13586)
 - [Instruction-Tuning-Papers](https://github.com/SinclairCoder/Instruction-Tuning-Papers) - A trend starts from `Natrural-Instruction` (ACL 2022), `FLAN` (ICLR 2022) and `T0` (ICLR 2022).
+- [Chain-of-Thought] —a series of intermediate reasoning steps—significantly improves the ability of large language models to perform complex reasoning.
+  > (2021-01) **Chain of Thought Prompting Elicits Reasoning in Large Language Models.**  [paper](https://arxiv.org/abs/2201.11903)
