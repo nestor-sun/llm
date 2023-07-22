@@ -45,12 +45,12 @@ The above tables coule be better summarized by this wonderful visualization from
 ## Other Awesome Lists
 - [Pre-training]
 - Pretraining data
-- **RedPajama**, 2023. [Repo](https://github.com/togethercomputer/RedPajama-Data)
-- **The Pile: An 800GB Dataset of Diverse Text for Language Modeling**, Arxiv 2020. [Paper](https://arxiv.org/abs/2101.00027)
-- **How does the pre-training objective affect what large language models learn about linguistic properties?**, ACL 2022. [Paper](https://aclanthology.org/2022.acl-short.16/)
-- **Scaling laws for neural language models**, 2020. [Paper](https://arxiv.org/abs/2001.08361)
-- **Data-centric artificial intelligence: A survey**, 2023. [Paper](https://arxiv.org/abs/2303.10158)
-- **How does GPT Obtain its Ability? Tracing Emergent Abilities of Language Models to their Sources**, 2022. [Blog](https://yaofu.notion.site/How-does-GPT-Obtain-its-Ability-Tracing-Emergent-Abilities-of-Language-Models-to-their-Sources-b9a57ac0fcf74f30a1ab9e3e36fa1dc1)
+  > **RedPajama**, 2023. [Repo](https://github.com/togethercomputer/RedPajama-Data)
+  > **The Pile: An 800GB Dataset of Diverse Text for Language Modeling**, Arxiv 2020. [Paper](https://arxiv.org/abs/2101.00027)
+  > **How does the pre-training objective affect what large language models learn about linguistic properties?**, ACL 2022. [Paper](https://aclanthology.org/2022.acl-short.16/)
+  > **Scaling laws for neural language models**, 2020. [Paper](https://arxiv.org/abs/2001.08361)
+  > **Data-centric artificial intelligence: A survey**, 2023. [Paper](https://arxiv.org/abs/2303.10158)
+  > **How does GPT Obtain its Ability? Tracing Emergent Abilities of Language Models to their Sources**, 2022. [Blog](https://yaofu.notion.site/How-does-GPT-Obtain-its-Ability-Tracing-Emergent-Abilities-of-Language-Models-to-their-Sources-b9a57ac0fcf74f30a1ab9e3e36fa1dc1)
 - [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts) - A collection of prompt examples to be used with the ChatGPT model.
 - [Prompt-Learning]
   > (2020-12) **Making Pre-trained Language Models Better Few-shot Learners** [paper](https://arxiv.org/pdf/2012.15723.pdf) <br>
