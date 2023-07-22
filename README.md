@@ -11,4 +11,4 @@
 - [Prompt-Learning]
   > (2020-12) **Making Pre-trained Language Models Better Few-shot Learners** [paper](https://arxiv.org/pdf/2012.15723.pdf) <br>
   > (2021-07) **Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing** [paper](https://arxiv.org/abs/2107.13586)
-- [Instruction-Tuning]
+- [Instruction-Tuning-Papers](https://github.com/SinclairCoder/Instruction-Tuning-Papers) - A trend starts from `Natrural-Instruction` (ACL 2022), `FLAN` (ICLR 2022) and `T0` (ICLR 2022).
