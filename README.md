@@ -10,6 +10,7 @@
 | 2018-10 |         BERT         |      Google      | [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://aclanthology.org/N19-1423.pdf)| NAACL 2019|
 | 2019-02 |       GPT 2.0       |      OpenAI      | [Language Models are Unsupervised Multitask Learners](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)|
 
+The wonderful visualization from this [survey paper](https://arxiv.org/abs/2304.13712) that summarize the evolutionary tree of modern LLMs traces the development of language models in recent years and highlights some of the most well-known models:
 <p align="center">
 <img width="600" src="https://github.com/Mooler0410/LLMsPracticalGuide/blob/main/imgs/survey-gif-test.gif"/>
 </p>
