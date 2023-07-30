@@ -46,13 +46,12 @@ The wonderful visualization from this [survey paper](https://arxiv.org/abs/2304.
   > **Scaling laws for neural language models**, 2020. [Paper](https://arxiv.org/abs/2001.08361) <br>
   > **Data-centric artificial intelligence: A survey**, 2023. [Paper](https://arxiv.org/abs/2303.10158) <br>
   > **How does GPT Obtain its Ability? Tracing Emergent Abilities of Language Models to their Sources**, 2022. [Blog](https://yaofu.notion.site/How-does-GPT-Obtain-its-Ability-Tracing-Emergent-Abilities-of-Language-Models-to-their-Sources-b9a57ac0fcf74f30a1ab9e3e36fa1dc1)
-- [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts) - A collection of prompt examples to be used with the ChatGPT model.
+- [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts): a collection of prompt examples to be used with the ChatGPT model.
 - Prompt-Learning
   > (2020-12) **Making Pre-trained Language Models Better Few-shot Learners** [paper](https://arxiv.org/pdf/2012.15723.pdf) <br>
   > (2021-07) **Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing** [paper](https://arxiv.org/abs/2107.13586)
-  >
 
-- [Instruction-Tuning-Papers](https://github.com/SinclairCoder/Instruction-Tuning-Papers) - A trend starts from `Natrural-Instruction` (ACL 2022), `FLAN` (ICLR 2022) and `T0` (ICLR 2022).
+- [Instruction-Tuning-Papers](https://github.com/SinclairCoder/Instruction-Tuning-Papers): a trend starts from `Natrural-Instruction` (ACL 2022), `FLAN` (ICLR 2022) and `T0` (ICLR 2022).
 - Chain-of-Thought: a series of intermediate reasoning steps—significantly improves the ability of large language models to perform complex reasoning.
   > (2021-01) **Chain of Thought Prompting Elicits Reasoning in Large Language Models.**  [paper](https://arxiv.org/abs/2201.11903)
 
