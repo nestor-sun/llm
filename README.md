@@ -26,7 +26,7 @@
 | 2023-02 | LLaMA|Meta|[LLaMA: Open and Efficient Foundation Language Models](https://research.facebook.com/publications/llama-open-and-efficient-foundation-language-models/)|-|
 | 2023-03 | GPT 4 | OpenAI | [GPT-4 Technical Report](https://openai.com/research/gpt-4)|-|
 
-\.
+"\\"
 The wonderful visualization from this [survey paper](https://arxiv.org/abs/2304.13712) that summarize the evolutionary tree of modern LLMs traces the development of language models in recent years and highlights some of the most well-known models:
 <p align="center">
 <img width="600" src="https://github.com/Mooler0410/LLMsPracticalGuide/blob/main/imgs/survey-gif-test.gif"/>
