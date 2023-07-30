@@ -2,10 +2,12 @@
 
 ## Table of Content
 
-## Milestone Papers (this table is extracted from [Github](https://github.com/Hannibal046/Awesome-LLM))
+## Milestone Papers (credit from [Github](https://github.com/Hannibal046/Awesome-LLM))
 |  Date  |       keywords       |    Institute    | Paper | Publication |    
 | :-----: | :------------------: | :--------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------: |
-| 2017-06 |     Transformers     |      Google      | [Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf)|      
+| 2017-06 |     Transformers     |      Google      | [Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf)| NeurIPS 2017|
+| 2018-06 |       GPT 1.0       |      OpenAI      | [Improving Language Understanding by Generative Pre-Training](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf) | OpenAI|
+
 
 Another way to categorize the papers
 There are three important steps for a ChatGPT-like LLM: 
