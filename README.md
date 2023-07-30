@@ -38,9 +38,8 @@ The wonderful visualization from this [survey paper](https://arxiv.org/abs/2304.
 
 
 
-
 ## Other Awesome Lists
-- [Pretraining data]
+- Pretraining data
   > **RedPajama**, 2023. [Repo](https://github.com/togethercomputer/RedPajama-Data) <br>
   > **The Pile: An 800GB Dataset of Diverse Text for Language Modeling**, Arxiv 2020. [Paper](https://arxiv.org/abs/2101.00027) <br>
   > **How does the pre-training objective affect what large language models learn about linguistic properties?**, ACL 2022. [Paper](https://aclanthology.org/2022.acl-short.16/) <br>
