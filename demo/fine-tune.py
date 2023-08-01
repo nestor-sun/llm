@@ -1,3 +1,5 @@
+# the original post could be found on https://medium.com/@ud.chandra/instruction-fine-tuning-llama-2-with-pefts-qlora-method-d6a801ebb19
+
 !pip install -q huggingface_hub
 !pip install -q -U trl transformers accelerate peft
 !pip install -q -U datasets bitsandbytes einops wandb
