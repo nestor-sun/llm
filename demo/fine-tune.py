@@ -82,10 +82,7 @@ output_dir = os.path.join(output_dir, "final_checkpoint")
 trainer.model.save_pretrained(output_dir)
 
 
-
-
 from peft import AutoPeftModelForCausalLM
-
 model = AutoPeftModelForCausalLM.from_pretrained(output_dir, device_map=device_map, torch_dtype=torch.bfloat16)
 text = "..."
 inputs = tokenizer(text, return_tensors="pt").to(device)
