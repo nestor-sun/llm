@@ -72,7 +72,7 @@ The wonderful visualization from this [survey paper](https://arxiv.org/abs/2304.
 </thead>
 <tbody>
   <tr>
-    <td class="tg-nrix" align="center" rowspan="25">Publicly <br>Accessbile</td>
+    <td class="tg-nrix" align="center" rowspan="27">Publicly <br>Accessbile</td>
     <td class="tg-baqh" align="center">T5</td>
     <td class="tg-0lax" align="center">2019/10</td>
     <td class="tg-baqh" align="center">11</td>
@@ -223,10 +223,16 @@ The wonderful visualization from this [survey paper](https://arxiv.org/abs/2304.
     <td class="tg-0lax" align="center"><a href="https://bair.berkeley.edu/blog/2023/04/03/koala/">Blog</a></td>
   </tr>
   <tr>
-    <td class="tg-baqh" align="center">Koala</td>
-    <td class="tg-0lax" align="center">2023/04</td>
+    <td class="tg-baqh" align="center">Falcon</td>
+    <td class="tg-0lax" align="center">2023/06</td>
     <td class="tg-baqh" align="center">13</td>
-    <td class="tg-0lax" align="center"><a href="https://bair.berkeley.edu/blog/2023/04/03/koala/">Blog</a></td>
+    <td class="tg-0lax" align="center"><a href="https://huggingface.co/docs/transformers/main/model_doc/falcon">Blog</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">Llama-2</td>
+    <td class="tg-0lax" align="center">2023/07</td>
+    <td class="tg-baqh" align="center">13</td>
+    <td class="tg-0lax" align="center"><a href="https://arxiv.org/pdf/2307.09288.pdf">Paper</a></td>
   </tr>
   <tr>
     <td class="tg-nrix" align="center" rowspan="31">Closed<br>Source</td>
