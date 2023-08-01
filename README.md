@@ -195,7 +195,7 @@ The wonderful visualization from this [survey paper](https://arxiv.org/abs/2304.
   <tr>
     <td class="tg-baqh" align="center">LLaMA</td>
     <td class="tg-0lax" align="center">2023/02</td>
-    <td class="tg-baqh" align="center">65</td>
+    <td class="tg-baqh" align="center">7/13/65</td>
     <td class="tg-0lax" align="center"><a href="https://arxiv.org/abs/2302.13971v1">Paper</a></td>
   </tr>
   <tr>
@@ -225,13 +225,13 @@ The wonderful visualization from this [survey paper](https://arxiv.org/abs/2304.
   <tr>
     <td class="tg-baqh" align="center">Falcon</td>
     <td class="tg-0lax" align="center">2023/06</td>
-    <td class="tg-baqh" align="center">13</td>
+    <td class="tg-baqh" align="center">7/40</td>
     <td class="tg-0lax" align="center"><a href="https://huggingface.co/docs/transformers/main/model_doc/falcon">Blog</a></td>
   </tr>
   <tr>
     <td class="tg-baqh" align="center">Llama-2</td>
     <td class="tg-0lax" align="center">2023/07</td>
-    <td class="tg-baqh" align="center">13</td>
+    <td class="tg-baqh" align="center">7/13/70</td>
     <td class="tg-0lax" align="center"><a href="https://arxiv.org/pdf/2307.09288.pdf">Paper</a></td>
   </tr>
   <tr>
