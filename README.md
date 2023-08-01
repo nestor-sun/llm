@@ -223,6 +223,12 @@ The wonderful visualization from this [survey paper](https://arxiv.org/abs/2304.
     <td class="tg-0lax" align="center"><a href="https://bair.berkeley.edu/blog/2023/04/03/koala/">Blog</a></td>
   </tr>
   <tr>
+    <td class="tg-baqh" align="center">Koala</td>
+    <td class="tg-0lax" align="center">2023/04</td>
+    <td class="tg-baqh" align="center">13</td>
+    <td class="tg-0lax" align="center"><a href="https://bair.berkeley.edu/blog/2023/04/03/koala/">Blog</a></td>
+  </tr>
+  <tr>
     <td class="tg-nrix" align="center" rowspan="31">Closed<br>Source</td>
     <td class="tg-baqh" align="center">GShard</td>
     <td class="tg-0lax" align="center">2020/01</td>
