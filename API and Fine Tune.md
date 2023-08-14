@@ -5,3 +5,4 @@ Parameter-efficient fine-tuning reduces the number of trainable parameters. Para
 
 ### Fine Tuning vs. Prompt Engineering 
 1. <u>Prompt Engineering </u>: Prompt engineering is about getting the model to do what you want at inference time by providing enough context, instruction and examples **without** changing the underlying weights.
+2.  <u>Fine-tuning </u>: Fine-tuning is about doing the same thing, but by directly updating the model parameters using a dataset that captures the distribution of tasks you want it to accomplish.
