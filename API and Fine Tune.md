@@ -1,7 +1,18 @@
 # Large Language Models
 [1, Instruction fine-tuning Llama 2 with PEFT’s QLoRa method](https://github.com/nestor-sun/llm/blob/main/demo/fine-tune.py) <br/>
 [2, PEFT](https://github.com/nestor-sun/llm/blob/main/demo/peft-fine-tune.py)
-Parameter-efficient fine-tuning reduces the number of trainable parameters. Parameter-efficient fine-tuning (PEFT) refers to a category of techniques similar to “Finetuning I,” where only the last few layers of the network are trainable and the rest are frozen.
+Parameter-efficient finetuning allows us to reuse pretrained models while minimizing the computational and resource footprints. In sum, parameter-efficient finetuning is useful for at least 5 reasons:
+
+Reduced computational costs (requires fewer GPUs and GPU time);
+
+Faster training times (finishes training faster);
+
+Lower hardware requirements (works with smaller GPUs & less smemory);
+
+Better modeling performance (reduces overfitting);
+
+Less storage (majority of weights can be shared across different tasks).
+
 
 ### Fine Tuning vs. Prompt Engineering 
 1. <u>Prompt Engineering </u>: Prompt engineering is about getting the model to do what you want at inference time by providing enough context, instruction and examples **without** changing the underlying weights.
