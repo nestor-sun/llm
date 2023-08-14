@@ -13,6 +13,8 @@ Better modeling performance (reduces overfitting);
 
 Less storage (majority of weights can be shared across different tasks).
 
+3, Reinforcement Learning with Human Feedback: In Reinforcement Learning with Human Feedback (RLHF), a pretrained model is finetuned using a combination of supervised learning and reinforcement learning -- the approach was popularized by the original ChatGPT model, which was in turn based on InstructGPT (Ouyang et al. (https://arxiv.org/abs/2203.02155)).
+
 
 ### Fine Tuning vs. Prompt Engineering 
 1. <u>Prompt Engineering </u>: Prompt engineering is about getting the model to do what you want at inference time by providing enough context, instruction and examples **without** changing the underlying weights.
