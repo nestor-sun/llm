@@ -11,6 +11,39 @@ Parameter-efficient fine-tuning reduces the number of trainable parameters. Para
 3.  There are three conventional approaches outlined in the figure above.
 (1) Feature-Based Approach: In the feature-based approach, we load a pretrained LLM and apply it to our target dataset. Here, we are particularly interested in generating the output embeddings for the training set, which we can use as input features to train a classification model. While this approach is particularly common for embedding-focused like BERT, we can also extract embeddings from generative GPT-style model. <br/>
 (2) Finetuning I – Updating The Output Layers: Similar to the feature-based approach, we keep the parameters of the pretrained LLM frozen. We only train the newly added output layers, analogous to training a logistic regression classifier or small multilayer perceptron on the embedded features.
+```
+model = AutoModelForSequenceClassification.from_pretrained(
+    "distilbert-base-uncased",
+     num_labels=2
+) 
+
+# freeze all layers
+for param in model.parameters():
+    param.requires_grad = False
+    
+# then unfreeze the two last layers (output layers)
+for param in model.pre_classifier.parameters():
+    param.requires_grad = True
+
+for param in model.classifier.parameters():
+    param.requires_grad = True
+    
+# finetune model
+lightning_model = CustomLightningModule(model)
+
+trainer = L.Trainer(
+    max_epochs=3,
+    ...
+)
+
+trainer.fit(
+  model=lightning_model,
+  train_dataloaders=train_loader,
+  val_dataloaders=val_loader)
+
+# evaluate model
+trainer.test(lightning_model, dataloaders=test_loader)
+```
 
 
 
