@@ -1,6 +1,6 @@
 # Large Language Models
-[1, Instruction fine-tuning Llama 2 with PEFT’s QLoRa method](https://github.com/nestor-sun/llm/blob/main/demo/fine-tune.py) <br/>
-[2, PEFT](https://github.com/nestor-sun/llm/blob/main/demo/peft-fine-tune.py)
+1, Instruction fine-tuning Llama 2 with PEFT’s QLoRa [method](https://github.com/nestor-sun/llm/blob/main/demo/fine-tune.py) <br/>
+2, [PEFT](https://github.com/nestor-sun/llm/blob/main/demo/peft-fine-tune.py)
 Parameter-efficient finetuning allows us to reuse pretrained models while minimizing the computational and resource footprints. In sum, parameter-efficient finetuning is useful for at least 5 reasons:
 
 Reduced computational costs (requires fewer GPUs and GPU time);
