@@ -9,7 +9,7 @@ Parameter-efficient fine-tuning reduces the number of trainable parameters. Para
 
 ![ezgif-4-5843089b9b](https://github.com/nestor-sun/llm/assets/26111084/465d16cb-e037-466b-a4ca-19c8a87361f6)
 3.  There are three conventional approaches outlined in the figure above.
-  * Feature-Based Approach
+(1) Feature-Based Approach
 
 
 
