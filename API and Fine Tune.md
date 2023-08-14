@@ -46,7 +46,34 @@ trainer.test(lightning_model, dataloaders=test_loader)
 ```
 (3) Finetuning II – Updating All Layers: In practice, finetuning all layers almost always results in superior modeling performance. So, when optimizing the modeling performance, the gold standard for using pretrained LLMs is to update all layers (here referred to as finetuning II). Conceptually finetuning II is very similar to finetuning I. The only difference is that we do not freeze the parameters of the pretrained LLM but finetune them as well.
 
+```
+model = AutoModelForSequenceClassification.from_pretrained(
+    "distilbert-base-uncased",
+     num_labels=2
+) 
 
+# freeze layers (which we don't do here)
+# for param in model.parameters():
+#    param.requires_grad = False
+    
+
+# finetune model
+lightning_model = LightningModel(model)
+
+trainer = L.Trainer(
+    max_epochs=3,
+    ...
+)
+
+trainer.fit(
+  model=lightning_model,
+  train_dataloaders=train_loader,
+  val_dataloaders=val_loader)
+
+# evaluate model
+trainer.test(lightning_model, dataloaders=test_loader)
+```
+(Interested readers can find the complete code example here [https://github.com/rasbt/LLM-finetuning-scripts/tree/main/conventional/distilbert-movie-review].)
 
 
 
