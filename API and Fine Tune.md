@@ -1,25 +1,3 @@
-# Large Language Models
-1, Instruction fine-tuning Llama 2 with PEFT’s QLoRa [method](https://github.com/nestor-sun/llm/blob/main/demo/fine-tune.py) <br/>
-2, [PEFT](https://github.com/nestor-sun/llm/blob/main/demo/peft-fine-tune.py)
-Parameter-efficient finetuning allows us to reuse pretrained models while minimizing the computational and resource footprints. In sum, parameter-efficient finetuning is useful for at least 5 reasons:
-
-Reduced computational costs (requires fewer GPUs and GPU time);
-
-Faster training times (finishes training faster);
-
-Lower hardware requirements (works with smaller GPUs & less smemory);
-
-Better modeling performance (reduces overfitting);
-
-Less storage (majority of weights can be shared across different tasks).
-
-3, Reinforcement Learning with Human Feedback: In Reinforcement Learning with Human Feedback (RLHF), a pretrained model is finetuned using a combination of supervised learning and reinforcement learning -- the approach was popularized by the original ChatGPT model, which was in turn based on InstructGPT ([Ouyang et al.](https://arxiv.org/abs/2203.02155)). 
-In RLHF, human feedback is collected by having humans rank or rate different model outputs, providing a reward signal. The collected reward labels can then be used to train a reward model that is then in turn used to guide the LLMs adaptation to human preferences. The reward model itself is learned via supervised learning (typically using a pretrained LLM as base model). Next, the reward model is used to update the pretrained LLM that is to be adapted to human preferences -- the training uses a flavor of reinforcement learning called proximal policy optimization ([Schulman et al.](https://arxiv.org/abs/1707.06347)).
-![7dfa415c-da9c-4d6f-8de8-ffc9f92272db_1602x952](https://github.com/nestor-sun/llm/assets/26111084/f2081679-dadc-4811-8b90-9d01f5a02c18)
-Screenshot from the InstructGPT paper outlining the RLHF process.
-
-
-
 ### Fine Tuning vs. Prompt Engineering 
 1. <u>Prompt Engineering </u>: Prompt engineering is about getting the model to do what you want at inference time by providing enough context, instruction and examples **without** changing the underlying weights.
 2.  <u>Fine-tuning </u>: Fine-tuning is about doing the same thing, but by directly updating the model parameters using a dataset that captures the distribution of tasks you want it to accomplish.
@@ -93,5 +71,23 @@ trainer.test(lightning_model, dataloaders=test_loader)
 ```
 [Interested readers can find the complete code example here (https://github.com/rasbt/LLM-finetuning-scripts/tree/main/conventional/distilbert-movie-review).]
 
+# Large Language Models
+1, Instruction fine-tuning Llama 2 with PEFT’s QLoRa [method](https://github.com/nestor-sun/llm/blob/main/demo/fine-tune.py) <br/>
+2, [PEFT](https://github.com/nestor-sun/llm/blob/main/demo/peft-fine-tune.py)
+Parameter-efficient finetuning allows us to reuse pretrained models while minimizing the computational and resource footprints. In sum, parameter-efficient finetuning is useful for at least 5 reasons:
 
+Reduced computational costs (requires fewer GPUs and GPU time);
+
+Faster training times (finishes training faster);
+
+Lower hardware requirements (works with smaller GPUs & less smemory);
+
+Better modeling performance (reduces overfitting);
+
+Less storage (majority of weights can be shared across different tasks).
+
+3, Reinforcement Learning with Human Feedback: In Reinforcement Learning with Human Feedback (RLHF), a pretrained model is finetuned using a combination of supervised learning and reinforcement learning -- the approach was popularized by the original ChatGPT model, which was in turn based on InstructGPT ([Ouyang et al.](https://arxiv.org/abs/2203.02155)). 
+In RLHF, human feedback is collected by having humans rank or rate different model outputs, providing a reward signal. The collected reward labels can then be used to train a reward model that is then in turn used to guide the LLMs adaptation to human preferences. The reward model itself is learned via supervised learning (typically using a pretrained LLM as base model). Next, the reward model is used to update the pretrained LLM that is to be adapted to human preferences -- the training uses a flavor of reinforcement learning called proximal policy optimization ([Schulman et al.](https://arxiv.org/abs/1707.06347)).
+![7dfa415c-da9c-4d6f-8de8-ffc9f92272db_1602x952](https://github.com/nestor-sun/llm/assets/26111084/f2081679-dadc-4811-8b90-9d01f5a02c18)
+Screenshot from the InstructGPT paper outlining the RLHF process.
 
