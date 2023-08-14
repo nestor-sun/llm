@@ -72,7 +72,22 @@ trainer.test(lightning_model, dataloaders=test_loader)
 [Interested readers can find the complete code example here (https://github.com/rasbt/LLM-finetuning-scripts/tree/main/conventional/distilbert-movie-review).]
 
 # Large Language Models
-1, Instruction fine-tuning Llama 2 with PEFT’s QLoRa [method](https://github.com/nestor-sun/llm/blob/main/demo/fine-tune.py) <br/>
+1, Instruction fine-tuning Llama 2 with PEFT’s QLoRa [method](https://github.com/nestor-sun/llm/blob/main/demo/fine-tune.py) 
+## Prepare Your Dataset
+Instruction fine-tuning is a common technique used to fine-tune a base LLM for a specific downstream use-case. The training examples look like this:
+```
+Below is an instruction that describes a sentiment analysis task...
+
+### Instruction:
+Analyze the following comment and classify the tone as...
+
+### Input:
+I love reading your articles...
+
+### Response:
+friendly & constructive
+```
+<br/>
 2, [PEFT](https://github.com/nestor-sun/llm/blob/main/demo/peft-fine-tune.py)
 Parameter-efficient finetuning allows us to reuse pretrained models while minimizing the computational and resource footprints. In sum, parameter-efficient finetuning is useful for at least 5 reasons:
 
