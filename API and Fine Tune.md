@@ -90,9 +90,9 @@ friendly & constructive
 <br/>
 There are several ways to create an instruction dataset, including:
 
-Using an existing dataset and converting it into an instruction dataset, e.g., [FLAN](https://huggingface.co/datasets/SirNeural/flan_v2)
-Use existing LLMs to create synthetically instruction datasets, e.g., [Alpaca](https://huggingface.co/datasets/tatsu-lab/alpaca)
-Use Humans to create instructions datasets, e.g., [Dolly].(https://huggingface.co/datasets/databricks/databricks-dolly-15k)
+Using an existing dataset and converting it into an instruction dataset, e.g., [FLAN](https://huggingface.co/datasets/SirNeural/flan_v2)<br/>
+Use existing LLMs to create synthetically instruction datasets, e.g., [Alpaca](https://huggingface.co/datasets/tatsu-lab/alpaca) <br/>
+Use Humans to create instructions datasets, e.g., [Dolly](https://huggingface.co/datasets/databricks/databricks-dolly-15k).
 
 2, [PEFT](https://github.com/nestor-sun/llm/blob/main/demo/peft-fine-tune.py)
 Parameter-efficient finetuning allows us to reuse pretrained models while minimizing the computational and resource footprints. In sum, parameter-efficient finetuning is useful for at least 5 reasons:
