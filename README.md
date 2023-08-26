@@ -30,7 +30,7 @@
 ![LLMs_timeline](https://github.com/RUCAIBox/LLMSurvey/blob/main/assets/LLMs-0623-final.png)
 
 <br/>
-The wonderful visualization below (from this [survey paper](https://arxiv.org/pdf/2304.13712.pdf)that summarizes the evolutionary tree of modern LLMs) traces the development of language models in recent years and highlights some of the most well-known models: 
+The wonderful visualization below from this [survey paper](https://arxiv.org/pdf/2304.13712.pdf) that summarizes the evolutionary tree of modern LLMs traces the development of language models in recent years and highlights some of the most well-known models: 
 <p align="center">
 <img width="600" src="https://github.com/Mooler0410/LLMsPracticalGuide/blob/main/imgs/survey-gif-test.gif"/>
 </p>
