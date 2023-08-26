@@ -75,7 +75,7 @@ trainer.fit(
 # evaluate model
 trainer.test(lightning_model, dataloaders=test_loader)
 ```
-[Interested readers can find the complete code example here(https://github.com/rasbt/LLM-finetuning-scripts/tree/main/conventional/distilbert-movie-review).]
+[Interested readers can find the complete code example [here]([url](https://github.com/rasbt/LLM-finetuning-scripts/tree/main/conventional/distilbert-movie-review)).]
 
 # Large Language Models
 1, Instruction fine-tuning Llama 2 with PEFT’s QLoRa [method](https://github.com/nestor-sun/llm/blob/main/demo/fine-tune.py) 
