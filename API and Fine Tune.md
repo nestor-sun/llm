@@ -101,15 +101,11 @@ friendly & constructive
 ### 2, [PEFT](https://github.com/nestor-sun/llm/blob/main/demo/peft-fine-tune.py)
 Parameter-efficient finetuning allows us to reuse pretrained models while minimizing the computational and resource footprints. In sum, parameter-efficient finetuning is useful for at least 5 reasons:
 
-Reduced computational costs (requires fewer GPUs and GPU time);
-
-Faster training times (finishes training faster);
-
-Lower hardware requirements (works with smaller GPUs & less smemory);
-
-Better modeling performance (reduces overfitting);
-
-Less storage (majority of weights can be shared across different tasks).
+(1) Reduced computational costs (requires fewer GPUs and GPU time);
+(2) Faster training times (finishes training faster);
+(3) Lower hardware requirements (works with smaller GPUs & less smemory);
+(4) Better modeling performance (reduces overfitting);
+(5) Less storage (majority of weights can be shared across different tasks).
 
 ### 3, Reinforcement Learning with Human Feedback
 In Reinforcement Learning with Human Feedback (RLHF), a pretrained model is finetuned using a combination of supervised learning and reinforcement learning -- the approach was popularized by the original ChatGPT model, which was in turn based on InstructGPT ([Ouyang et al.](https://arxiv.org/abs/2203.02155)). 
