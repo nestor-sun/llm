@@ -77,9 +77,9 @@ trainer.test(lightning_model, dataloaders=test_loader)
 ```
 [Interested readers can find the complete code example [here](https://github.com/rasbt/LLM-finetuning-scripts/tree/main/conventional/distilbert-movie-review).]
 
-# Large Language Models
-1, Instruction fine-tuning Llama 2 with PEFT’s QLoRa [method](https://github.com/nestor-sun/llm/blob/main/demo/fine-tune.py) 
-## Prepare Your Dataset
+## Large Language Models
+### 1, Instruction fine-tuning Llama 2 with PEFT’s QLoRa [method](https://github.com/nestor-sun/llm/blob/main/demo/fine-tune.py) 
+#### Prepare Your Dataset
 Instruction fine-tuning is a common technique used to fine-tune a base LLM for a specific downstream use-case. The training examples look like this:
 ```
 Below is an instruction that describes a sentiment analysis task...
