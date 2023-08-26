@@ -26,7 +26,7 @@
 | 2023-02 | LLaMA|Meta|[LLaMA: Open and Efficient Foundation Language Models](https://research.facebook.com/publications/llama-open-and-efficient-foundation-language-models/)|-|
 | 2023-03 | GPT 4 | OpenAI | [GPT-4 Technical Report](https://openai.com/research/gpt-4)|-|
 
-### Timeline of LLMs
+## Timeline of LLMs
 ![LLMs_timeline](https://github.com/RUCAIBox/LLMSurvey/blob/main/assets/LLMs-0623-final.png)
 
 <br/><br/>
