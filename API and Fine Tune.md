@@ -116,5 +116,5 @@ Less storage (majority of weights can be shared across different tasks).
 3, Reinforcement Learning with Human Feedback: In Reinforcement Learning with Human Feedback (RLHF), a pretrained model is finetuned using a combination of supervised learning and reinforcement learning -- the approach was popularized by the original ChatGPT model, which was in turn based on InstructGPT ([Ouyang et al.](https://arxiv.org/abs/2203.02155)). 
 In RLHF, human feedback is collected by having humans rank or rate different model outputs, providing a reward signal. The collected reward labels can then be used to train a reward model that is then in turn used to guide the LLMs adaptation to human preferences. The reward model itself is learned via supervised learning (typically using a pretrained LLM as base model). Next, the reward model is used to update the pretrained LLM that is to be adapted to human preferences -- the training uses a flavor of reinforcement learning called proximal policy optimization ([Schulman et al.](https://arxiv.org/abs/1707.06347)).
 ![7dfa415c-da9c-4d6f-8de8-ffc9f92272db_1602x952](https://github.com/nestor-sun/llm/assets/26111084/f2081679-dadc-4811-8b90-9d01f5a02c18)
-Screenshot from the InstructGPT paper outlining the RLHF process.
+Screenshot from the InstructGPT [paper](https://arxiv.org/pdf/2203.02155.pdf) outlining the RLHF process.
 
