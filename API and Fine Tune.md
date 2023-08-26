@@ -7,8 +7,10 @@ Fine-tuning is about doing the same thing, but by directly updating the model pa
 ![ezgif-4-5843089b9b](https://github.com/nestor-sun/llm/assets/26111084/465d16cb-e037-466b-a4ca-19c8a87361f6)
 credit from [Sebastian](https://magazine.sebastianraschka.com/p/finetuning-large-language-models) <br/>
 ### 3.  There are three conventional approaches outlined in the figure above.
-(1) <u>Feature-Based Approach</u>: In the feature-based approach, we load a pretrained LLM and apply it to our target dataset. Here, we are particularly interested in generating the output embeddings for the training set, which we can use as input features to train a classification model. While this approach is particularly common for embedding-focused like BERT, we can also extract embeddings from generative GPT-style model. <br/>
-(2) Finetuning I – Updating The Output Layers: Similar to the feature-based approach, we keep the parameters of the pretrained LLM frozen. We only train the newly added output layers, analogous to training a logistic regression classifier or small multilayer perceptron on the embedded features.
+#### (1) <u>Feature-Based Approach</u>
+In the feature-based approach, we load a pretrained LLM and apply it to our target dataset. Here, we are particularly interested in generating the output embeddings for the training set, which we can use as input features to train a classification model. While this approach is particularly common for embedding-focused like BERT, we can also extract embeddings from generative GPT-style model. <br/>
+#### (2) Finetuning I 
+Updating The Output Layers: Similar to the feature-based approach, we keep the parameters of the pretrained LLM frozen. We only train the newly added output layers, analogous to training a logistic regression classifier or small multilayer perceptron on the embedded features.
 ```
 model = AutoModelForSequenceClassification.from_pretrained(
     "distilbert-base-uncased",
@@ -42,7 +44,8 @@ trainer.fit(
 # evaluate model
 trainer.test(lightning_model, dataloaders=test_loader)
 ```
-(3) Finetuning II – Updating All Layers: In practice, finetuning all layers almost always results in superior modeling performance. So, when optimizing the modeling performance, the gold standard for using pretrained LLMs is to update all layers (here referred to as finetuning II). Conceptually finetuning II is very similar to finetuning I. The only difference is that we do not freeze the parameters of the pretrained LLM but finetune them as well.
+#### (3) Finetuning II 
+Updating All Layers: In practice, finetuning all layers almost always results in superior modeling performance. So, when optimizing the modeling performance, the gold standard for using pretrained LLMs is to update all layers (here referred to as finetuning II). Conceptually finetuning II is very similar to finetuning I. The only difference is that we do not freeze the parameters of the pretrained LLM but finetune them as well.
 
 ```
 model = AutoModelForSequenceClassification.from_pretrained(
