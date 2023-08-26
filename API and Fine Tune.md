@@ -1,6 +1,8 @@
 # Fine Tuning vs. Prompt Engineering 
-1. <u>Prompt Engineering </u>: Prompt engineering is about getting the model to do what you want at inference time by providing enough context, instruction and examples **without** changing the underlying weights.
-2.  <u>Fine-tuning </u>: Fine-tuning is about doing the same thing, but by directly updating the model parameters using a dataset that captures the distribution of tasks you want it to accomplish.
+## 1. <u>Prompt Engineering </u>: 
+Prompt engineering is about getting the model to do what you want at inference time by providing enough context, instruction and examples **without** changing the underlying weights.
+## 2.  <u>Fine-tuning </u>: 
+Fine-tuning is about doing the same thing, but by directly updating the model parameters using a dataset that captures the distribution of tasks you want it to accomplish.
 
 ![ezgif-4-5843089b9b](https://github.com/nestor-sun/llm/assets/26111084/465d16cb-e037-466b-a4ca-19c8a87361f6)
 credit from [Sebastian](https://magazine.sebastianraschka.com/p/finetuning-large-language-models) <br/>
