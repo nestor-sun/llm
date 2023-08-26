@@ -6,8 +6,8 @@ Fine-tuning is about doing the same thing, but by directly updating the model pa
 
 ![ezgif-4-5843089b9b](https://github.com/nestor-sun/llm/assets/26111084/465d16cb-e037-466b-a4ca-19c8a87361f6)
 
-### 3.  
-There are three conventional approaches outlined in the figure (credit from [Sebastian](https://magazine.sebastianraschka.com/p/finetuning-large-language-models) <br/>) above.
+### 3. Implementation
+There are three conventional approaches outlined in the figure (credit from [Sebastian](https://magazine.sebastianraschka.com/p/finetuning-large-language-models)) above.
 #### (1) Feature-Based Approach
 In the feature-based approach, we load a pretrained LLM and apply it to our target dataset. Here, we are particularly interested in generating the output embeddings for the training set, which we can use as input features to train a classification model. While this approach is particularly common for embedding-focused like BERT, we can also extract embeddings from generative GPT-style model. 
 #### (2) Finetuning I 
